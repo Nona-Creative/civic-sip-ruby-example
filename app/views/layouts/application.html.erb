@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CivicRubyTest</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <script src="https://hosted-sip.civic.com/js/civic.sip.min.js"></script>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+
+  <%= javascript_include_tag 'application' %>
+</html>
